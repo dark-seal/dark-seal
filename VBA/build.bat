@@ -1,0 +1,1 @@
+EvilClippy.exe -g -s junk.txt -r -u Document.doc

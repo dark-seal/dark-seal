@@ -1,0 +1,20 @@
+Option Explicit
+
+Sub RechercherLesArobas(ByVal DocEnCours As Document)
+Dim I As Long
+    With DocEnCours
+        For I = .Paragraphs.Count To 1 Step -1
+            If InStr(1, .Paragraphs(I).Range.Text, "@", vbTextCompare) > 0 Then
+                .Paragraphs(I).Range.Select
+                    With Selection
+                        .MoveUp Unit:=wdLine, Count:=1
+                        .InsertBreak Type:=wdPageBreak
+                    End With
+            End If
+        Next I
+    End With
+End Sub
+
+Sub TestRechercherLesArobas()
+    RechercherLesArobas ActiveDocument
+End Sub
