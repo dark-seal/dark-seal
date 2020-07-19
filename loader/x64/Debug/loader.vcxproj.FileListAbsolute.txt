@@ -1,0 +1,2 @@
+C:\dark-seal\loader\x64\Debug\loader.exe
+C:\dark-seal\loader\x64\Debug\loader.pdb

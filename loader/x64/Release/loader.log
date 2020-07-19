@@ -1,0 +1,4 @@
+﻿  init.c
+C:\dark-seal\loader\init.c(35,25): warning C4129: '%' : caractère de séquence d'échappement non reconnu
+  LINK : C:\dark-seal\loader\x64\Release\loader.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+  loader.vcxproj -> C:\dark-seal\loader\x64\Release\loader.exe

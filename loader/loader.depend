@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1591197791 source:c:\dark-seal\loader\bypass.c
+	"bypass.h"
+
+1591197677 c:\dark-seal\loader\bypass.h
+	<winsock2.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<wininet.h>
+	<iphlpapi.h>
+	<psapi.h>
+	<string.h>
+	<shlwapi.h>
+	<sysinfoapi.h>
+
+1591290687 source:c:\dark-seal\loader\main.c
+	"main.h"
+
+1591288202 c:\dark-seal\loader\main.h
+	"sandbox.h"
+	"init.h"
+	<Shlobj.h>
+
+1591199872 source:c:\dark-seal\loader\download.c
+	"download.h"
+
+1591199952 c:\dark-seal\loader\download.h
+	<Urlmon.h>
+	<stdio.h>
+
+1591199765 c:\dark-seal\loader\sandbox.h
+	<winsock2.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<wininet.h>
+	<iphlpapi.h>
+	<psapi.h>
+	<string.h>
+	<shlwapi.h>
+	<sysinfoapi.h>
+
+1591200550 source:c:\dark-seal\loader\sandbox.c
+	"bypass.h"
+
+1591293786 source:c:\dark-seal\loader\init.c
+	"init.h"
+
+1591290687 c:\dark-seal\loader\init.h
+	<Urlmon.h>
+	<stdio.h>
+
+1591307614 source:c:\users\aghilas\documents\github\dark-seal2\loader\init.c
+	"init.h"
+
+1591307561 c:\users\aghilas\documents\github\dark-seal2\loader\init.h
+	<Urlmon.h>
+	<stdio.h>
+	<Shlobj.h>
+
+1591307561 source:c:\users\aghilas\documents\github\dark-seal2\loader\main.c
+	"main.h"
+
+1591307047 c:\users\aghilas\documents\github\dark-seal2\loader\main.h
+	"sandbox.h"
+	"init.h"
+
+1591305036 c:\users\aghilas\documents\github\dark-seal2\loader\sandbox.h
+	<winsock2.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<wininet.h>
+	<iphlpapi.h>
+	<psapi.h>
+	<string.h>
+	<shlwapi.h>
+	<sysinfoapi.h>
+
+1591305228 source:c:\users\aghilas\documents\github\dark-seal2\loader\sandbox.c
+	"sandbox.h"
+
