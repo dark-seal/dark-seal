@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1592070861 source:c:\dark-seal\backdoor\crypto.c
+	"crypto.h"
+
+1591994030 c:\dark-seal\backdoor\crypto.h
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	<windows.h>
+	<wincrypt.h>
+	"aes.h"
+
+1591957710 source:c:\dark-seal\backdoor\main.c
+	"main.h"
+
+1591958403 c:\dark-seal\backdoor\main.h
+	"communication.h"
+
+1591978632 source:c:\dark-seal\backdoor\aes.c
+	<string.h>
+	"aes.h"
+
+1591981359 c:\dark-seal\backdoor\aes.h
+	<stdint.h>
+
+1591994905 source:c:\dark-seal\backdoor\communication.c
+	"communication.h"
+	"modules.h"
+
+1591992014 c:\dark-seal\backdoor\communication.h
+	<stdio.h>
+	"crypto.h"
+	<windows.h>
+	<windns.h>
+
+1591991970 c:\dark-seal\backdoor\modules.h
+	<winsock2.h>
+	<windows.h>
+
+1592068538 source:c:\dark-seal\backdoor\modules.c
+	"modules.h"
+
